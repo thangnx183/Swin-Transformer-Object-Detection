@@ -18,7 +18,7 @@ RUN pip install mmcv-full==1.2.4 -f https://download.openmmlab.com/mmcv/dist/cu1
 
 # Install MMDetection
 RUN conda clean --all
-RUN git clone https://github.com/SwinTransformer/Swin-Transformer-Object-Detection.git /mmdetection
+RUN git clone https://github.com/thangnx183/Swin-Transformer-Object-Detection.git /mmdetection
 WORKDIR /mmdetection
 ENV FORCE_CUDA="1"
 RUN pip install -r requirements/build.txt

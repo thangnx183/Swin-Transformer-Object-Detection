@@ -1,5 +1,5 @@
 # 1. Clone repo  
-`git clone https://github.com/SwinTransformer/Swin-Transformer-Object-Detection.git`
+`git clone https://github.com/thangnx183/Swin-Transformer-Object-Detection.git`
 # 2. Setup docker 
 ```
 cd Swin-Transformer-Object-Detection
